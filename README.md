@@ -22,7 +22,7 @@ python setup.py develop
     - `nmnist`: scripts that are related to N-MNIST classification.
     - `object_detection`: inference scripts related to thermal and event data experiments.
     - `prepare-data`: how to prepare data for N-MNIST, MVSEC and FLIR datasets.
-    - `weights`: you should put the weights here. Small weight files are uploaded in this folder, larger weight files (>100MB) will be provided through a downloadable link.
+    - `weights`: you should put the weights here. Small weight files are uploaded in this folder and a Google drive shared folder (see following).
 
 ## Run the script
 
@@ -46,11 +46,13 @@ python setup.py develop
 
 ## Trained weights
 
-Some selected models are shared [here](https://drive.google.com/drive/folders/1ikGBtDfMlsu_BVDsyzyxSfVxOpnahz0L?usp=sharing)
+Some selected models are shared [here](https://drive.google.com/drive/folders/1ikGBtDfMlsu_BVDsyzyxSfVxOpnahz0L?usp=sharing).
+
+This folder contains the original YOLOv3 pretrained weights and trained GN frontend for each task and configuration.
 
 ## Data
 
-Data for evaluation is released [here](https://drive.google.com/drive/folders/1xVvveX9TF4Zoss-Crn4cUUK106UohfaY?usp=sharing)
+Data for evaluation is released [here](https://drive.google.com/drive/folders/1xVvveX9TF4Zoss-Crn4cUUK106UohfaY?usp=sharing).
 
 
 ## Contacts
