@@ -28,9 +28,21 @@ python setup.py develop
 
 1. Object Detection on Thermal Driving Dataset
 
+    ```
+    python export_thermal_yolo_results.py --val_data_dir /path/to/val/data --checkpoint /path/to/checkpoint.pt --detection_path /path/to/dump/prediction/result --conv_input_dim 1 --img_size 640 --cut_stage [1, 2, or 3] [--vis]
+    ```
+
 2. Car Detection on Event Camera Driving Dataset
 
+    ```
+    python export_ev_yolo_results.py --img_size 346 --val_data_dir /path/to/val/data --checkpoint /path/to/checkpoint.pt --detection_path /path/to/dump/prediction/result --conv_input_dim [3 or 10] --cut_stage [1, 2 or 3]
+    ```
+
 3. N-MNIST Classification
+
+    ```
+    python val_pt_nmnist.py --test_path /path/to/val/data --checkpoint /path/to/checkpoint.pt
+    ```
 
 
 ## Trained weights (to update)
