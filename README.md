@@ -44,8 +44,13 @@ python setup.py develop
     python val_pt_nmnist.py --test_path /path/to/val/data --checkpoint /path/to/checkpoint.pt
     ```
 
+## Trained weights
 
-## Trained weights (to update)
+Some selected models are shared [here](https://drive.google.com/drive/folders/1ikGBtDfMlsu_BVDsyzyxSfVxOpnahz0L?usp=sharing)
+
+## Data
+
+Data for evaluation is released [here](https://drive.google.com/drive/folders/1xVvveX9TF4Zoss-Crn4cUUK106UohfaY?usp=sharing)
 
 
 ## Contacts
