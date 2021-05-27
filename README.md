@@ -54,6 +54,9 @@ This folder contains the original YOLOv3 pretrained weights and trained GN front
 
 Data for evaluation is released [here](https://drive.google.com/drive/folders/1xVvveX9TF4Zoss-Crn4cUUK106UohfaY?usp=sharing).
 
+## Alternative Downloads
+
+If you cannot access above links, please go to Zenodo platform and download, use this [link](https://zenodo.org/record/4818421#.YK-8UHUzbmE)
 
 ## Contacts
 
